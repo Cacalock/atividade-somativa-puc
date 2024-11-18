@@ -1,0 +1,69 @@
+.bem-vindo {
+  margin: 9px 0px;
+  text-align: center;
+}
+
+.bem-vindo h1 {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.bem-vindo p {
+  margin: 20px 350px;
+  font-size: 20px;
+  padding: 10px;
+  backdrop-filter: blur(2px);
+}
+
+.ir-para {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 25px 300px 80px 300px;
+  padding-top: 20px;
+  gap: 200px;
+  border-top: 2px solid maroon;
+}
+
+.ir-para button {
+  margin-top: 30px;
+}
+
+.button-menu {
+  background-color: transparent;
+  border-radius: 40px;
+  margin: 5px 20px;
+  padding: 2px;
+}
+
+.button-menu:hover {
+  background-color: rgba(230, 82, 82, 0.027);
+  border-color: maroon;
+  transition: 2s;
+}
+
+.feedback {
+  margin: 10px;
+  text-align: center;
+  max-width: 400px;
+  overflow-wrap: break-word;
+}
+
+textarea,
+.actionfeedback {
+  flex-grow: 5;
+  min-width: 200px;
+  max-width: 100%;
+  background: transparent;
+  border: 1px solid maroon;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+textarea::placeholder {
+  color: #fff;
+}
